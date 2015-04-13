@@ -1,0 +1,36 @@
+{
+  "name": "machinepack-nodestore",
+  "version": "0.2.0",
+  "description": "This machinepack provides an easy-to-use key/value pair-based database using the HTML5 localStorage model.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Local Storage",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0",
+    "node-localstorage": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilefrater/machinepack-nodestore.git"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "NodeStore",
+    "machineDir": "machines/",
+    "machines": [
+      "save-to-storage",
+      "read-from-storage",
+      "delete-from-storage",
+      "save-json-to-storage"
+    ]
+  }
+}
