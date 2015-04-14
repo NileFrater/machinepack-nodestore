@@ -1,6 +1,6 @@
 {
   "name": "machinepack-nodestore",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "This machinepack provides an easy-to-use key/value pair-based database using the HTML5 localStorage model.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
