@@ -1,6 +1,6 @@
 module.exports = {
 
-  friendlyName: 'Save to Storage',
+  friendlyName: 'Save JSON to Storage',
 
   description: 'Save a key-value pair in string format to the persistent data store. This is compatible with PhoneGap/Cordova',
 
